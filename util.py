@@ -61,7 +61,7 @@ def get_calibrated_pred(pred, r=0.33):
 def check_bad_pred(pred_proba, target):
 	
 	"""
-	Check back classifications (Predicted class <> target class) in training
+	Check bad classifications (Predicted class <> target class) in training
 	"""
 	
     bad_preds = pd.DataFrame(columns=['max_proba_class','max_proba','target_class','target_proba'])
